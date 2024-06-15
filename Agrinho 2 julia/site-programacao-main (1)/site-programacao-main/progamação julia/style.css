@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.cabecalho {
+    background-color: #34632d;
+    color: #96e986
+ 
+   
+}
+
+.cabecalho-imagem{
+    width: 15%;
+
+}
+
+.cabecalho-lista-item{ 
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.livro-imagem{
+    width: 25%;
+}
+
+.livros{
+    background-image: linear-gradient(#34632d,#5a9c4d);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.livros-div-conteudo{
+    width: 30%;
+}
+
+.livros-titulos{
+    padding: 24px 0;
+}
+
+.tlivros-imagem{
+    width: 160px;
+}
+
+.tlivros-icon{
+    width: 24px;
+}
+
+.tlivros-div{
+    text-align: center;
+}
+
+.tlivros-titulos{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tlivros-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #334927;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
